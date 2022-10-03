@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".add_task">
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_margin = "8dp"
+        android:autofillHints = "Enter Name"
+        android:hint = "Enter Name"
+        android:inputType = "text"
+        />
+    <EditText
+        android:id="@+id/et_details"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_margin = "8dp"
+        android:autofillHints = "Enter Details"
+        android:hint = "Enter Details"
+        android:inputType = "text"
+        />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:text = "save"
+        />
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:text = "Delete"
+        />
+
+</LinearLayout>
